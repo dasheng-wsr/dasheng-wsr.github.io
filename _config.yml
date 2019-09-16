@@ -13,7 +13,7 @@ url: https://github.com/dasheng-wsr
 baseurl: ''
 ## default date_format
 date_format: 
-  title: "%B-%-d-%Y"
+  title: "%m-%-d-%Y"
   archive: "%b"
   categories: "%b-%Y"
   tag: "%b-%Y"
