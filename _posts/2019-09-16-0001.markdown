@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "在Github上搭建自己的博客"
+categories: 其他
+tags: Git,博客
+author: dasheng
+description: 如何在github上搭建属于自己的博客.
+---
+
+在写这个博客的时候，我有过很多选型，就是怎么来承载这个东西，包括搭建属于自己的网站，在第三方博客网站，以及这个github上弄。
+自己之前大学弄过自己的网站，后来忘记续费了，导致之前的东西都没了，非常后悔，所以先暂时不用，第三方的又觉得不够酷，所以最终选择了github,比较常用，而且基本上不会丢，除非美帝永久封禁。
+
+下面是详细步骤：
+1.
+创建仓库，要注意名字与你的github账号一致
+![](/assets/post/img/2019091601.png)
+
+
+2.创建好后，进入到设置
+![](/assets/post/img/2019091602.png)
+
+然后下拉到github pages
+![](/assets/post/img/2019091603.png)
+
+
+3.然后设置好后，就是要选择一个主题
+这里推荐一个网址，http://jekyllthemes.org/
+里面有很多主题，可以选择自己想要的，比我我选的这个，http://jekyllthemes.org/themes/xixia/
+点击homepage，进入到主题的github页面，然后就跟正常的其他git项目一样，clone下来，然后上传到自己刚才项目上，然后浏览器上输入地址，https://dasheng-wsr.github.io/
+就发现已经可以用了。
+
+
+4.写博客的一些格式，不知道其他主题是怎么样的，我的这个，博客需要一定的格式，比如markdown文件名是 xxxx-xx-xx-*****.markdown这种，x是日期，年月日，*是其他的名字
+
+5.其他
+我写博客用的编辑器是vscode,里面用了markdown preview enhanced创建，写的时候点击右上角的带放大镜的窗口图标会实时显示排版的样子。
+![](/assets/post/img/2019091604.png)
+然后git工具sourcetree。
+其他的话，就是博客内容的一些格式了，因为文件名字的原因，所以我的名字都是数字来取的，比如这篇，除了前缀的日期，后缀是0001，因为打算最多写几千篇吧，所以就用了这个数字。
+图片还有其他资源的话，就按照日期加上数字排序来存放了。
